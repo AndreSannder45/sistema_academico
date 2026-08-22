@@ -2,7 +2,7 @@ package br.com.faex.academico.model;
 
 public class Aluno {
         private int id;
-        private boolean ativo;
+        private boolean ativo = true;
         private String email;
         private String nome;
 
